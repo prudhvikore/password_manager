@@ -1,0 +1,17 @@
+.header {
+  width: 70%;
+  max-width: 750px;
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 25px;
+}
+
+@media screen and (max-width: 768px) {
+  .header {
+    width: 90%;
+  }
+}
+
+.logo-img {
+  height: 50px;
+}

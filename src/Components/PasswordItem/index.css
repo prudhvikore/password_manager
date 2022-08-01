@@ -1,0 +1,83 @@
+.violet {
+  background-color: #7683cb;
+}
+
+.yellow {
+  background-color: #f59e0b;
+}
+
+.green {
+  background-color: #10b981;
+}
+
+.orange {
+  background-color: #f97316;
+}
+
+.cyan {
+  background-color: #14b8a6;
+}
+
+.red {
+  background-color: #b91c1c;
+}
+
+.blue {
+  background-color: #0ea5e9;
+}
+
+.list-item {
+  display: flex;
+  align-items: center;
+  border: 1px solid #9ba9eb;
+  padding: 5px;
+  border-radius: 8px;
+  margin-right: 12px;
+  margin-bottom: 12px;
+  width: 31%;
+}
+
+@media screen and (max-width: 768px) {
+  .list-item {
+    width: 100%;
+  }
+}
+
+.initial {
+  border-radius: 45px;
+  height: 40px;
+  width: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-weight: 500;
+}
+
+.details-cont {
+  margin-left: 12px;
+  margin-right: 12px;
+  flex-grow: 1;
+}
+
+.text {
+  margin-top: 0;
+  margin-bottom: 3px;
+  font-size: 12px;
+  color: white;
+}
+
+.del-button {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.del-img {
+  height: 20px;
+}
+
+.stars {
+  height: 10px;
+}
